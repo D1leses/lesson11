@@ -24,8 +24,8 @@ public class Main {
 
         double a = arrayListTime;
         double b = linkedListTime;
-        double x = b-a;
-        System.out.println("Разница между добавлениями ArrayList и LinkedList в " +x+ " мс");
+        double x = a-b;
+        System.out.println("Разница между добавлениями ArrayList и LinkedList в " +Math.abs(x)+ " мс");
     }
 
 }
